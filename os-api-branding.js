@@ -11,7 +11,7 @@ os.Branding = {
     options: {
         div: 'map',
         logo: 'os-logo-maps', // os-logo-maps | os-logo-maps-white
-        statement: 'Contains OS data &copy; Crown copyright and database rights ' + new Date().getFullYear(),
+        statement: 'Contains OS data &copy; Crown copyright and database rights YYYY',
         prefix: '',
         suffix: ''
     },
@@ -34,9 +34,12 @@ os.Branding = {
         }
 
         var copyrightStatement = this.options.statement;
+        copyrightStatement = copyrightStatement.replace('YYYY', new Date().getFullYear());
+
         if( this.options.prefix !== '' ) {
             copyrightStatement = this.options.prefix + '<span>|</span>' + copyrightStatement;
         }
+
         if( this.options.suffix !== '' ) {
             copyrightStatement = copyrightStatement + '<span>|</span>' + this.options.suffix;
         }
