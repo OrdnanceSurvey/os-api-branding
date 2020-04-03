@@ -2,7 +2,7 @@
 
 var scriptTag = document.currentScript;
 
-var os = {};
+window.os = window.os || {};
 
 os.Branding = {
     /**
