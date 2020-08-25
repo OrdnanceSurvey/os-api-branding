@@ -44,9 +44,26 @@ For example, to show the branding with the white API logo (as opposed to the ful
 
 ![screenshot custom branding](media/os-api-branding-custom.png)
 
+The branding can also be initialised manually in your JavaScript using:
+
+```js
+os.Branding.init();
+```
+
+... or (alternatively) if you wish to provide options:
+
+```js
+os.Branding.init({ div: 'map', logo: 'os-logo-maps-white' });
+```
+
+The function can be called multiple times, making it particularly useful if you have more than one map on a single page.
+
 For further reading on the OS API Branding, refer to the [guidelines document](media/guidelines.pdf).
 
 ## Change Log
 
 **Version 0.1.0** (March 2020)
 - Initial release.
+
+**Version 0.2.0** (August 2020)
+- Allows branding to be initialised manually.
