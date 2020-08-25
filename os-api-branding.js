@@ -1,4 +1,4 @@
-// os-api-branding.js v0.1.0
+// os-api-branding.js v0.2.0
 
 var scriptTag = document.currentScript;
 
@@ -19,12 +19,15 @@ os.Branding = {
     /**
      * Add the API logo and copyright statement.
      */
-    init: function() {
+    init: function(obj) {
         this.options.div = scriptTag.getAttribute('data-div') || this.options.div;
         this.options.logo = scriptTag.getAttribute('data-logo') || this.options.logo;
         this.options.statement = scriptTag.getAttribute('data-statement') || this.options.statement;
         this.options.prefix = scriptTag.getAttribute('data-prefix') || this.options.prefix;
         this.options.suffix = scriptTag.getAttribute('data-suffix') || this.options.suffix;
+
+        obj = (typeof obj !== 'undefined') ? obj : {};
+        Object.assign(this.options, obj);
 
         var elem = document.getElementById(this.options.div);
 
@@ -43,6 +46,8 @@ os.Branding = {
         if( this.options.suffix !== '' ) {
             copyrightStatement = copyrightStatement + '<span>|</span>' + this.options.suffix;
         }
+
+        document.querySelectorAll('#' + this.options.div + ' .os-api-branding').forEach(el => el.remove());
 
         // Append the API logo.
         var div1 = document.createElement('div');
