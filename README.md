@@ -16,8 +16,8 @@ Include the following tags in the header section of your HTML document to add th
 Hosted versions can also be found at:
 
 ```html
-<link rel="stylesheet" href="https://labs.os.uk/public/os-api-branding/v0.1.0/os-api-branding.css" />
-<script src="https://labs.os.uk/public/os-api-branding/v0.1.0/os-api-branding.js"></script>
+<link rel="stylesheet" href="https://labs.os.uk/public/os-api-branding/v0.2.0/os-api-branding.css" />
+<script src="https://labs.os.uk/public/os-api-branding/v0.2.0/os-api-branding.js"></script>
 ```
 
 ## Usage
@@ -70,6 +70,6 @@ For further reading on the OS API Branding, refer to the [guidelines document](m
 
 ## Licence
 
-The contents of this repository are licensed under the [Open Government Licence 3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/)
+The contents of this repository are licensed under the [Open Government Licence 3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/).
 
 ![Logo](http://www.nationalarchives.gov.uk/images/infoman/ogl-symbol-41px-retina-black.png "OGL logo")
