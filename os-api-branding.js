@@ -1,4 +1,4 @@
-// os-api-branding.js v0.2.0
+// os-api-branding.js v0.3.0
 
 var scriptTag = document.currentScript;
 
@@ -62,6 +62,4 @@ os.Branding = {
     }
 };
 
-document.addEventListener('DOMContentLoaded', function() {
-    os.Branding.init();
-});
+os.Branding.init();
