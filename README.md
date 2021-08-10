@@ -68,6 +68,9 @@ For further reading on the OS API Branding, refer to the [guidelines document](m
 **Version 0.2.0** (August 2020)
 - Allows branding to be initialised manually.
 
+**Version 0.3.0** (August 2021)
+- Removed `DOMContentLoaded` event for initialisation.
+
 ## Licence
 
 The contents of this repository are licensed under the [Open Government Licence 3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/).
