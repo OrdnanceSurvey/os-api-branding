@@ -1,4 +1,4 @@
-// os-api-branding.js v0.3.0
+// os-api-branding.js v0.3.1
 
 var scriptTag = document.currentScript;
 
@@ -30,6 +30,8 @@ os.Branding = {
         Object.assign(this.options, obj);
 
         var elem = document.getElementById(this.options.div);
+
+        if(! elem) return;
 
         var logoClassName = 'os-api-branding logo'
         if( this.options.logo === 'os-logo-maps-white' ) {

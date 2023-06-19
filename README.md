@@ -13,11 +13,18 @@ Include the following tags in the header section of your HTML document to add th
 <script src="os-api-branding.js"></script>
 ```
 
+The latest CDN versions can be accessed via:
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/OrdnanceSurvey/os-api-branding/os-api-branding.css" />
+<script src="https://cdn.jsdelivr.net/gh/OrdnanceSurvey/os-api-branding/os-api-branding.js"></script>
+```
+
 Hosted versions can also be found at:
 
 ```html
-<link rel="stylesheet" href="https://labs.os.uk/public/os-api-branding/v0.2.0/os-api-branding.css" />
-<script src="https://labs.os.uk/public/os-api-branding/v0.2.0/os-api-branding.js"></script>
+<link rel="stylesheet" href="https://labs.os.uk/public/os-api-branding/v0.3.1/os-api-branding.css" />
+<script src="https://labs.os.uk/public/os-api-branding/v0.3.1/os-api-branding.js"></script>
 ```
 
 ## Usage
@@ -70,6 +77,11 @@ For further reading on the OS API Branding, refer to the [guidelines document](m
 
 **Version 0.3.0** (August 2021)
 - Removed `DOMContentLoaded` event for initialisation.
+
+**Version 0.3.1** (June 2023)
+- Minor bug fixes.
+- Added CDN support.
+
 
 ## Licence
 

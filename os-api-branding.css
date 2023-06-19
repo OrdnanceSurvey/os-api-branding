@@ -1,4 +1,4 @@
-/* os-api-branding.css v0.3.0 */
+/* os-api-branding.css v0.3.1 */
 
 @import url(//fonts.googleapis.com/css?family=Source+Sans+Pro);
 
@@ -17,9 +17,9 @@
   width: 90px;
   height: 24px;
   background-image: url(./img/os-logo-maps.svg);
-  background-size: 90px 24px;
   background-position: center;
   background-repeat: no-repeat;
+  box-sizing: content-box;
 }
 .os-api-branding.logo.white {
   background-image: url(./img/os-logo-maps-white.svg);
