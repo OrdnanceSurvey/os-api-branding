@@ -16,7 +16,7 @@ Include the following tags in the header section of your HTML document to add th
 The latest CDN versions can be accessed via:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/OrdnanceSurvey@0.3.1/os-api-branding/os-api-branding.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/OrdnanceSurvey/os-api-branding@0.3.1/os-api-branding.css" />
 <script src="https://cdn.jsdelivr.net/gh/OrdnanceSurvey/os-api-branding@0.3.1/os-api-branding.js"></script>
 ```
 
