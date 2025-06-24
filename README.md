@@ -13,18 +13,11 @@ Include the following tags in the header section of your HTML document to add th
 <script src="os-api-branding.js"></script>
 ```
 
-The latest CDN versions can be accessed via:
+Alternatively the latest CDN versions can be accessed via:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/OrdnanceSurvey/os-api-branding@0.3.1/os-api-branding.css" />
-<script src="https://cdn.jsdelivr.net/gh/OrdnanceSurvey/os-api-branding@0.3.1/os-api-branding.js"></script>
-```
-
-Hosted versions can also be found at:
-
-```html
-<link rel="stylesheet" href="https://labs.os.uk/public/os-api-branding/v0.3.1/os-api-branding.css" />
-<script src="https://labs.os.uk/public/os-api-branding/v0.3.1/os-api-branding.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/OrdnanceSurvey/os-api-branding@latest/os-api-branding.css" />
+<script src="https://cdn.jsdelivr.net/gh/OrdnanceSurvey/os-api-branding@latest/os-api-branding.js"></script>
 ```
 
 ## Usage
